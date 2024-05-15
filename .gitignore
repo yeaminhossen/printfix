@@ -1,0 +1,16 @@
+.DS_Store
+.htaccess
+wp-config.php
+wp-content/uploads
+list.todo
+.idea
+wp-content/cache
+wp-content/advanced-cache.php
+wp-content/wpo-cache
+wp-content/fonts
+wp-content/languages
+wp-content/debug.log
+wp-includes/SimplePie/Cache/
+prepros.config 
+wp-content/upgrade/
+

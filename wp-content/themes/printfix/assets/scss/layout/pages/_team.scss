@@ -1,0 +1,36 @@
+@use '../../utils' as *;
+
+/*----------------------------------------*/
+/*  8.11 team
+/*----------------------------------------*/
+.rr-team-title {
+    color: var(--rr-common-white);
+    font-family: var(--rr-ff-heading);
+    font-size: var(--rr-fs-h4);
+    font-weight: var(--rr-fw-sbold);
+    text-align: center;
+    line-height: var(--rr-lh-h4);
+    transition: .3s;
+    &:hover {
+        text-decoration: underline;
+    }
+}
+.latest-feature {
+    &__item-content {
+        & h4 {
+            & a {
+                color: var(--rr-heading-primary);
+                font-family: var(--rr-ff-heading);
+                font-size: var(--rr-fs-h4);
+                font-weight: var(--rr-fw-sbold);
+                line-height: var(--rr-lh-h5);
+                margin-bottom: 12px;
+                font-style: normal;
+            }
+        }
+    }
+}
+.project-thumb img {
+    height: 100% !important;
+    border-radius: 10px !important;
+}
